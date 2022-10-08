@@ -1,13 +1,13 @@
-import { Meta } from '../layouts/Meta'
+import Navbar from '../components/navbar';
+import { Meta } from '../layouts/Meta';
 
-const Index = () => {
-  return(
-    <div className='w-full antialiased'>
-        <Meta />
-        Hello World!
+function Index() {
+  return (
+    <div className="w-full antialiased">
+      <Meta />
+      <Navbar />
     </div>
-
-  )
+  );
 }
 
 export default Index;
